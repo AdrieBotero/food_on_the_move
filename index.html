@@ -1,0 +1,57 @@
+
+<link rel="stylesheet" src="/css/bootstrap-theme.css" >
+<link rel="stylesheet" src="/css/bootstrap-theme.min.css" >
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<style type="text/css">
+
+.easyWizardSteps {list-style:none;width:100%;overflow:hidden;margin:0;padding:0;border-bottom:1px solid #ccc;margin-bottom:20px}
+.easyWizardSteps li {font-size:18px;display:inline-block;padding:10px;color:#B0B1B3;margin-right:20px;}
+.easyWizardSteps li span {font-size:24px}
+.easyWizardSteps li.current {color:#000}
+.easyWizardButtons {overflow:hidden;padding:10px;}
+.easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
+.easyWizardButtons .prev {float:left}
+.easyWizardButtons .next, .easyWizardButtons .submit {float:right}
+
+.test{
+    height: 100px;
+    background-color: blue;
+}
+.main_font{
+    color: #2e6785;
+    font-size:22px;
+    font-family:helvetica;
+    padding-top: 60px;
+    
+   
+}
+.btn-primary{
+    background-color: #2E6785;
+    border-color: #2A5778;
+}
+</style>
+<body style="background-color:#f4f4f4">
+<!--     <div class="site-wrapper "> -->
+    
+        <div class="container">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row">
+                    <div class="text-center">
+                    <img src="/img/foodonthemove_logo.png" style="padding-top: 40px;">
+                    <p class="main_font">Hi! We're happy you're here.</p>  
+                    <button type="button" class=" food_blue btn btn-primary btn-lg active ">Lets get started</button>
+                    </div> 
+                </div>
+               </div>
+            </div>
+        
+<!--     </div> -->
+</body>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="jquery.easyWizard.js"></script>
+
+<script type="text/javascript">
+
+$('#myWizard').easyWizard();
+
+</script>
